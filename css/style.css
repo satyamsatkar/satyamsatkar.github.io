@@ -1,0 +1,294 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+}
+.padd-100{
+padding-left: 50px;
+padding-right: 50px;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+}
+.nav-link{
+    font-weight: 500;
+}
+.collapse{
+    justify-content: flex-end;
+}
+.s-img{
+    height:15px;
+    width:15px;
+}
+.logo-img{
+    height: 40px;
+    width:111px;
+}
+.item h2{
+    color: #000;
+}
+.textpart{
+    position:relative;
+}
+.banner-text{
+    position: absolute;
+    top:40%;
+    left:10%;
+    width:50%;
+    color:aliceblue;
+    
+}
+.line-height{
+    line-height: 1;
+    text-align: center;
+    padding: 60px 0;
+}
+.est-2003{
+    line-height: 1;
+    text-align: center;
+    padding: 60px;
+    background-color: #D9D9D9;
+}
+.text-color1{
+    color:red;
+    font-weight: 200;
+    font-size: 50px;
+}
+.text-color2{
+    font-weight: 200;
+    font-size: 40px;
+}
+.para{
+  text-align: center;
+}
+.line-height .bg-grey{
+    background-color: #D9D9D9;
+}
+.awards{
+    background-color: black;
+    text-align: center;
+    padding: 60px 0;
+}
+.awards h2{
+    color:white;
+    margin:0px;
+}
+.awards h3{
+    color:white;
+    font-size:15px;
+}
+.icon{
+    background-color:#D9D9D9;
+    text-align: center;
+    padding: 60px 0;
+}
+.vr-img{
+    position: relative;
+}
+.vr-img img{
+    width:100%;
+}
+.vr-img h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    text-align: center;
+}
+.all-button button{
+    text-align: center;
+    background-color: #FF0B0B;
+    color:white;
+    height: 40px;
+    width: 200px;
+    border: none;
+    margin: 50px 50%;
+    transform: translateX(-50%);
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    letter-spacing: 0.05em;
+}
+.img-2 img{
+    width: 100%;
+}
+.no-padding{
+    padding: 0px;
+}
+.client img{
+width:100%;
+}
+.client{
+    padding: 0 50px;
+}
+.bot-award img{
+    width: 100%;
+}
+.contact{
+    padding: 0 50px;
+    font-weight: 100;
+}
+.contact input{
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom:0.1px solid grey;
+outline: none;
+font-weight: 100;
+}
+.contact textarea{
+border-top: none;
+border-left: none;
+border-right: none;
+outline:none;
+}
+.width-100{
+    width: 100%;
+}
+.submit input{
+    text-align: center;
+    background-color: #FF0B0B;
+    color:white;
+    height: 40px;
+    width: 200px;
+    border: none;
+    margin: 50px 50%;
+    transform: translateX(-50%);
+    font-weight: 200;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    letter-spacing: 0.05em;
+}
+.padd-top{
+    padding:10px 0;
+}
+.check input{
+    margin-right: 10px;
+}
+.partner{
+    background-color: #f1f1f1;
+    padding:50px 200px;
+    
+}
+.partner img{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 50px 50px;
+}
+
+a{
+    color: #808080;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+
+}
+footer h3{
+    font-size: 15px;
+    
+    font-weight: 500;
+}
+footer li{
+    list-style: none;
+}
+footer .foot-h{
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+footer .social{
+    font-weight: 400;
+    padding: 20px 0;
+    color: #f1f1f1;
+}
+.foot-li{
+    padding: 20px 0;
+}
+footer li img{
+    width:20px !important;
+    
+}
+.inline{
+    display: inline;
+    padding: 5px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+textarea {
+  resize: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+  *{
+    margin:0;
+    padding:0;
+  }
+  .para{
+    text-align: center;
+    overflow-x: hidden;
+  }
+  .textpart{
+    height: auto;
+  }
+  .banner-text h1{
+    font-size: 20px;
+    
+  }
+  .banner-text p{
+    font-size: 10px;
+  }
+  .navbar{
+    position: static;
+  }
+  .line-height h1{
+   font-size:30px;
+  }
+  .partner {
+    padding:0;
+  }
+  .vr-img h1{
+font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 800px){
+    .text-color1{
+        color:rgb(48, 13, 13);
+        font-weight: 200;
+        font-size: 50px;
+    }
+    .text-color2{
+        font-weight: 200;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .text-color1{
+        color:rgb(48, 13, 13);
+        font-weight: 200;
+        font-size: 50px;
+    }
+    .text-color2{
+        font-weight: 200;
+        font-size: 40px;
+    }
+}
